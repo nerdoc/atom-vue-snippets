@@ -1,0 +1,20 @@
+{
+  "name": "vue-snippets",
+  "description": "A short description of your package",
+  "keywords": [
+    "vue",
+    "components",
+    "snippets"
+  ],
+  "version": "0.0.0",
+  "repository": "https://github.com/ealves-pt/atom-vue-snippets.git",
+  "license": "MIT",
+  "author": {
+    "name": "Eduardo Alves"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
