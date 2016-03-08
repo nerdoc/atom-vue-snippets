@@ -1,25 +1,25 @@
 '.text.html.vue':
-  'Vue Template Component':
-    'prefix': 'vtemplate',
+  'Vue Template Tag':
+    'prefix': 'vuetemplate',
     'body': """
     <template ${1:lang="$2"}>$0</template>
     """
-  'Vue Script':
-    'prefix': 'vscript',
+  'Vue Script Tag':
+    'prefix': 'vuescript',
     'body': """
     <script>$0</script>
     """
-  'Vue Style':
-    'prefix': 'vstyle',
+  'Vue Style Tag':
+    'prefix': 'vuestyle',
     'body': """
-    <style ${1:lang="${2:scss}"} ${3:scoped}>$0</style>
+    <style ${1:lang="$2"} ${3:scoped}>$0</style>
     """
-  'Vue Component':
-    'prefix': 'vcomponent',
+  'Vue Full Component':
+    'prefix': 'vuecomponent',
     'body': """
-    <template ${1:lang="$2"}>$0</template>
+    <template ${1:lang="$2"}>$6</template>
 
-    <script>$0</script>
+    <script>$7</script>
 
-    <style ${1:lang="${2:scss}"} ${3:scoped}>$0</style>
+    <style ${3:lang="$4"} ${5:scoped}>$8</style>
     """
