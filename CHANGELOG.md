@@ -1,3 +1,6 @@
+## 0.2.2
+* Improve snippets
+
 ## 0.2.1
 * Add changes history to CHANGELOG
 

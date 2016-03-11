@@ -2,7 +2,7 @@
   'Vue Template Tag':
     'prefix': 'vuetemplate',
     'body': """
-    <template ${1:lang="$2"}>$0</template>
+    <template${1: lang="$2"}>$0</template>
     """
   'Vue Script Tag':
     'prefix': 'vuescript',
@@ -12,14 +12,14 @@
   'Vue Style Tag':
     'prefix': 'vuestyle',
     'body': """
-    <style ${1:lang="$2"} ${3:scoped}>$0</style>
+    <style${1: lang="$2"}${3: scoped}>$0</style>
     """
   'Vue Full Component':
     'prefix': 'vuecomponent',
     'body': """
-    <template ${1:lang="$2"}>$6</template>
+    <template${1: lang="$2"}>$6</template>
 
     <script>$7</script>
 
-    <style ${3:lang="$4"} ${5:scoped}>$8</style>
+    <style${3: lang="$4"}${5: scoped}>$8</style>
     """
