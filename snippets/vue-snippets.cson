@@ -7,7 +7,7 @@
   'Vue Script Tag':
     'prefix': 'vuescript',
     'body': """
-    <script>$0</script>
+    <script${1: lang="$2"}>$0</script>
     """
   'Vue Style Tag':
     'prefix': 'vuestyle',
@@ -17,9 +17,9 @@
   'Vue Full Component':
     'prefix': 'vuecomponent',
     'body': """
-    <template${1: lang="$2"}>$6</template>
+    <template${1: lang="$2"}>$8</template>
 
-    <script>$7</script>
+    <script${3: lang="$4"}>$9</script>
 
-    <style${3: lang="$4"}${5: scoped}>$8</style>
+    <style${5: lang="$6"}${7: scoped}>$10</style>
     """
