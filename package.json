@@ -1,6 +1,6 @@
 {
   "name": "vue-snippets",
-  "description": "Snippets for Vue component files",
+  "description": "Vue.js 1.0+ snippets for Atom",
   "keywords": [
     "vue",
     "components",
