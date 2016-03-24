@@ -23,3 +23,53 @@
 
     <style${5: lang="$6"}${7: scoped}>$10</style>
     """
+'.source.js':
+  'Vue Directive':
+    'prefix': 'vuedirective',
+    'body': """
+    Vue.directive('$1', {
+      bind: function () {},
+      update: function (value) {},
+      unbind: function () {}${2:// },
+      ${3:// }params: [$4],
+      ${5:// }paramWatchers: {$6},
+      ${7:// }deep: ${8:false},
+      ${9:// }twoWay: ${10:false},
+      ${11:// }acceptStatement: ${12:false},
+      ${13:// }priority: ${14:1000}
+    })
+    """
+  'Vue Element Directive':
+    'prefix': 'vueelementdirective',
+    'body': """
+    Vue.elementDirective('$1', {
+      bind: function () {},
+      update: function (value) {},
+      unbind: function () {}${2:// },
+      ${3:// }params: [$4],
+      ${5:// }paramWatchers: {$6},
+      ${7:// }deep: ${8:false},
+      ${9:// }twoWay: ${10:false},
+      ${11:// }acceptStatement: ${12:false},
+      ${13:// }priority: ${14:1000}
+    })
+    """
+  'Vue Filter':
+    'prefix': 'vuefilter',
+    'body': """
+    Vue.filter('$1', function(val$2) {
+      ${3:// Do something}
+    })
+    """
+  'Vue Two-way Filter':
+    'prefix': 'vue2wayfilter',
+    'body': """
+    Vue.filter('$1', {
+      read: function (val$2) {
+        ${4:// Do something}
+      },
+      write: function (val${3:, oldVal}) {
+        ${5:// Do something}
+      }
+    })
+    """

@@ -1,3 +1,9 @@
+## 0.3.0
+* Add snippet for Directives
+* Add snippet for Element Directives
+* Add snippet for Filters
+* Add snippet for Two-way Filters
+
 ## 0.2.2
 * Improve snippets
 
