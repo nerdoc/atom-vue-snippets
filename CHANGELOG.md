@@ -1,3 +1,6 @@
+## 0.4.2
+* Update package description
+
 ## 0.4.1
 * Republish 0.4.0
 

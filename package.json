@@ -1,6 +1,6 @@
 {
   "name": "vue-snippets",
-  "description": "Vue.js 1.0+ snippets for Atom",
+  "description": "Vue.js 1.0+ ES6 snippets for Atom",
   "keywords": [
     "vue",
     "components",
