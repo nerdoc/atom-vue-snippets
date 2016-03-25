@@ -1,0 +1,14 @@
+# Javascript files
+'.source.js, .source.ts':
+  'Vue Two-way Filter':
+    'prefix': 'vue2wayfilter',
+    'body': """
+    Vue.filter('$1', {
+    \tread (val$2) {
+    \t\t${4:// Do something}
+    \t},
+    \twrite (val${3:, oldVal}) {
+    \t\t${5:// Do something}
+    \t}
+    })
+    """

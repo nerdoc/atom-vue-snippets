@@ -1,3 +1,13 @@
+## 0.4.1
+* Republish 0.4.0
+
+## 0.4.0
+* Refactor snippets
+* Removed full component snippet
+
+## 0.3.1
+* Republish 0.3.0
+
 ## 0.3.0
 * Add snippet for Directives
 * Add snippet for Element Directives
