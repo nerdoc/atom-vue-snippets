@@ -1,0 +1,54 @@
+# Vue components
+'.text.html.vue':
+  'Vue Template Tag':
+    'prefix': 'vuetemplate',
+    'body': """
+    <template${1: lang="$2"}>$0</template>
+    """
+  'Vue Script Tag':
+    'prefix': 'vuescript',
+    'body': """
+    <script${1: lang="$2"}>
+    \texport default {
+    \t\t// Options / Data
+    \t\tdata () {
+    \t\t\treturn {}
+    \t\t},
+    \t\tprops: [],
+    \t\tcomputed: {},
+    \t\tmethods: {}// ,
+    \t\t// watch: {},
+    \t\t// Options / DOM
+    \t\t// el () {},
+    \t\t// replace: true,
+    \t\t// template: '',
+    \t\t// Options / Lifecycle Hooks
+    \t\t// init () {},
+    \t\t// crated () {},
+    \t\t// beforeCompile () {},
+    \t\t// compiled () {},
+    \t\t// ready () {},
+    \t\t// attached () {},
+    \t\t// detached () {},
+    \t\t// beforeDestroy () {},
+    \t\t// destroyed () {},
+    \t\t// Options / Assets
+    \t\t// directives: {},
+    \t\t// elementDirectives: {},
+    \t\t// filters: {},
+    \t\t// components: {},
+    \t\t// transitions: {},
+    \t\t// partials: {},
+    \t\t// Options / Misc
+    \t\t// parent: null,
+    \t\t// events: {},
+    \t\t// mixins: [],
+    \t\t// name: ''
+    \t}
+    </script>
+    """
+  'Vue Style Tag':
+    'prefix': 'vuestyle',
+    'body': """
+    <style${1: lang="$2"}${3: scoped}>$0</style>
+    """
