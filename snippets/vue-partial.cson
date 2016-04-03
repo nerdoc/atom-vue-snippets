@@ -1,7 +1,6 @@
-# Javascript files
-'.source.js, .source.ts':
+'.source.js':
   'Vue Partial':
-    'prefix': 'vuepartial',
+    'prefix': 'vpartial',
     'body': """
     Vue.partial('$1', '$2')
     """

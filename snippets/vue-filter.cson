@@ -1,9 +1,0 @@
-# Javascript files
-'.source.js, .source.ts':
-  'Vue Filter':
-    'prefix': 'vuefilter',
-    'body': """
-    Vue.filter('$1', function(val$2) {
-    \t${3:// Do something}
-    })
-    """

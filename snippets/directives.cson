@@ -1,0 +1,76 @@
+'.text.html.vue .meta.tag.any.html':
+  'v-text':
+    'prefix': 'vtext',
+    'body': """
+    v-text="$0"
+    """
+  'v-html':
+    'prefix': 'vhtml',
+    'body': """
+    v-html="$0"
+    """
+  'v-if':
+    'prefix': 'vif',
+    'body': """
+    v-if="$0"
+    """
+  'v-show':
+    'prefix': 'vshow',
+    'body': """
+    v-show="$0"
+    """
+  'v-else':
+    'prefix': 'velse',
+    'body': """
+    v-else="$0"
+    """
+  'v-for':
+    'prefix': 'vfor',
+    'body': """
+    v-for="${1:item} in ${2:items}"
+    """
+  'v-on':
+    'prefix': 'von',
+    'body': """
+    v-on:$1="$2"
+    """
+  'v-on:click':
+    'prefix': 'vclick',
+    'body': """
+    @click$1="$2"
+    """
+  'v-on:submit':
+    'prefix': 'vsubmit',
+    'body': """
+    @submit$1="$2"
+    """
+  'v-bind':
+    'prefix': 'vbind',
+    'body': """
+    :$1="$2"
+    """
+  'v-model':
+    'prefix': 'vmodel',
+    'body': """
+    v-model="$1"
+    """
+  'v-ref':
+    'prefix': 'vref',
+    'body': """
+    v-ref:$1
+    """
+  'v-el':
+    'prefix': 'vel',
+    'body': """
+    v-el:$1
+    """
+  'v-pre':
+    'prefix': 'vpre',
+    'body': """
+    v-pre
+    """
+  'v-cloak':
+    'prefix': 'vcloak',
+    'body': """
+    v-cloak
+    """

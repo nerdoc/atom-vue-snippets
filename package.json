@@ -3,6 +3,7 @@
   "description": "Vue.js 1.0+ ES6 snippets for Atom",
   "keywords": [
     "vue",
+    "vue.js",
     "components",
     "snippets"
   ],

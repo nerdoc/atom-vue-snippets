@@ -1,0 +1,31 @@
+'.source.js':
+  'Vue Directive':
+    'prefix': 'vdirective',
+    'body': """
+    Vue.directive('$1', {
+    \tbind () {},
+    \tupdate (value) {},
+    \tunbind () {}${2:// },
+    \t${3:// }params: [$4],
+    \t${5:// }paramWatchers: {$6},
+    \t${7:// }deep: ${8:false},
+    \t${9:// }twoWay: ${10:false},
+    \t${11:// }acceptStatement: ${12:false},
+    \t${13:// }priority: ${14:1000}
+    })
+    """
+  'Vue Element Directive':
+    'prefix': 'veldirective',
+    'body': """
+    Vue.elementDirective('$1', {
+    \tbind () {},
+    \tupdate (value) {},
+    \tunbind () {}${2:// },
+    \t${3:// }params: [$4],
+    \t${5:// }paramWatchers: {$6},
+    \t${7:// }deep: ${8:false},
+    \t${9:// }twoWay: ${10:false},
+    \t${11:// }acceptStatement: ${12:false},
+    \t${13:// }priority: ${14:1000}
+    })
+    """

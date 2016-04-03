@@ -1,7 +1,13 @@
-# Javascript files
-'.source.js, .source.ts':
+'.source.js':
+  'Vue Filter':
+    'prefix': 'vfilter',
+    'body': """
+    Vue.filter('$1', function(val$2) {
+    \t${3:// Do something}
+    })
+    """
   'Vue Two-way Filter':
-    'prefix': 'vue2wayfilter',
+    'prefix': 'v2wayfilter',
     'body': """
     Vue.filter('$1', {
     \tread (val$2) {

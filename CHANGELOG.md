@@ -1,3 +1,8 @@
+## 0.5.0
+* Add core directives snippets
+* Refactor global api snippets
+* Change prefixes from `vue*` to `v*`
+
 ## 0.4.2
 * Update package description
 

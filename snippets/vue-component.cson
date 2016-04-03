@@ -1,12 +1,11 @@
-# Vue components
 '.text.html.vue':
   'Vue Template Tag':
-    'prefix': 'vuetemplate',
+    'prefix': 'vtemplate',
     'body': """
     <template${1: lang="$2"}>$0</template>
     """
   'Vue Script Tag':
-    'prefix': 'vuescript',
+    'prefix': 'vscript',
     'body': """
     <script${1: lang="$2"}>
     \texport default {
@@ -48,7 +47,7 @@
     </script>
     """
   'Vue Style Tag':
-    'prefix': 'vuestyle',
+    'prefix': 'vstyle',
     'body': """
     <style${1: lang="$2"}${3: scoped}>$0</style>
     """
