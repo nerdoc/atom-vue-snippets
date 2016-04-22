@@ -1,3 +1,6 @@
+## 0.6.0
+* Remove core directives snippets (vue-autocomplete provides more intelligent options for this)
+
 ## 0.5.0
 * Add core directives snippets
 * Refactor global api snippets
