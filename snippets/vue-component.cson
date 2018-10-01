@@ -23,7 +23,7 @@
     \t\t// template: '',
     \t\t// Options / Lifecycle Hooks
     \t\t// init () {},
-    \t\t// crated () {},
+    \t\t// created () {},
     \t\t// beforeCompile () {},
     \t\t// compiled () {},
     \t\t// ready () {},
